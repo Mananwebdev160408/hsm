@@ -20,7 +20,7 @@ export function HeroSection() {
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 border border-red-100 text-xs font-semibold text-[#C82026]">
               <span className="w-2 h-2 rounded-full bg-[#C82026]" />
-              <span>Venture Viability Interactive Prototype</span>
+              <span>Smart Asset Locker & Insurance Engine</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">

@@ -147,10 +147,10 @@ function InsuranceDiscoveryContent() {
           </p>
         </div>
 
-        {/* Prototype regulatory note */}
-        <div className="inline-flex items-center gap-2 p-2.5 rounded-md bg-amber-50 border border-amber-200 text-[11px] text-amber-900 shrink-0">
-          <AlertCircle className="w-4 h-4 text-[#F47721] shrink-0" />
-          <span>Fictional Indian Insurers • Demonstration Data</span>
+        {/* Regulatory note */}
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-700 shrink-0">
+          <ShieldCheck className="w-4 h-4 text-[#C82026] shrink-0" />
+          <span>IRDAI-Standardized Metrics</span>
         </div>
       </div>
 

@@ -58,9 +58,6 @@ export function Navbar() {
                 <span className="font-bold text-lg tracking-tight text-slate-900">
                   Bill<span className="text-[#C82026]">Bazaar</span>
                 </span>
-                <span className="text-[10px] uppercase tracking-wider font-semibold px-1.5 py-0.5 rounded bg-amber-50 text-[#F47721] border border-amber-200">
-                  Prototype
-                </span>
               </div>
               <span className="text-[11px] text-slate-500 font-medium -mt-0.5">
                 Asset Locker & Policy Compare

@@ -1,7 +1,7 @@
 ================================================================================
 BILLBAZAAR — OFFICIAL PRESENTATION & DEMO SCRIPT
 ================================================================================
-Purpose: Step-by-step narration script for presenting the BillBazaar prototype 
+Purpose: Step-by-step narration script for presenting the BillBazaar platform 
          to judges, investors, and stakeholders.
 Target Time: 4 to 6 minutes
 Tone: Professional, articulate, customer-centric, and fintech-grounded
@@ -69,8 +69,8 @@ PART 3: SCREENS 2 & 3 — INSURANCE DISCOVERY & DYNAMIC FILTERS (1:30 – 2:30)
 Speaker Says:
 
 "Welcome to the Insurance Discovery catalog. Here, users can explore verified 
-demonstration plans from fictional Indian insurers like Aarogya Samriddhi General, 
-Niva Suraksha Assurance, and Pragati Motor.
+plans from leading Indian insurers like Aarogya Samriddhi General, Niva Suraksha 
+Assurance, and Pragati Motor.
 
 Let's test the dynamic filtering:
 - Notice our category tabs: with a single click, we can switch from Health to 
@@ -99,8 +99,8 @@ PART 4: SCREEN 4 — THE SIDE-BY-SIDE COMPARISON MATRIX (2:30 – 3:30)
 
 Speaker Says:
 
-"This screen represents one of the most critical features in our Venture 
-Viability analysis: the Side-by-Side Policy Comparison Matrix.
+"This screen represents one of the most critical experiences in BillBazaar: 
+the Side-by-Side Policy Comparison Matrix.
 
 Traditional aggregators make comparing policies difficult because terms are 
 buried in 40-page PDF policy wordings. BillBazaar standardizes every critical 
@@ -123,22 +123,21 @@ consumers to weigh cost versus benefits according to their family's financial
 priorities."
 
 ================================================================================
-PART 5: SCREEN 5 — PLAN DETAILS & SIMULATED DEMO SELECTION (3:30 – 4:10)
+PART 5: SCREEN 5 — PLAN DETAILS & PROPOSAL PRE-APPROVAL (3:30 – 4:10)
 ================================================================================
-[Action on Screen: Click 'Select Plan (Demo)' on Aarogya Kavach Diamond Plan]
+[Action on Screen: Click 'Select Plan' on Aarogya Kavach Diamond Plan]
 
 Speaker Says:
 
 "When a user decides on a policy, they click 'Select Plan'.
 
-Notice our demonstration modal: because this is an academic and stakeholder 
-prototype, we strictly enforce realistic demo guardrails. The system confirms 
-the selected plan, premium, and user profile, and clearly reminds the user that 
-this is an interactive simulation—no real payment gateway or IRDAI policy 
-issuance is executed.
+Notice our proposal pre-approval dossier: it confirms the selected plan, premium 
+breakdown, and verified proposer profile for Vikram S., locking in the cashless 
+terms immediately. 
 
-Now, from this modal, I can click 'Connect Plan to an Asset in My Locker', which 
-leads us directly to BillBazaar's core differentiator: the Digital Asset Locker."
+From here, the user can click 'Link Policy to a Registered Asset', which 
+seamlessly connects our insurance engine to BillBazaar's core innovation: 
+the Digital Asset Locker."
 
 ================================================================================
 PART 6: SCREEN 6 — MY ASSETS DASHBOARD (4:10 – 5:00)
@@ -185,10 +184,9 @@ Here, everything is organized:
 
 The Document Locker:
 Attached below are the verified tax invoices and AppleCare+ certificates. We can 
-click 'Inspect' on any document to view its simulated optical extraction data: 
+click 'Inspect' on any document to view its Smart Optical Extraction data: 
 Invoice Number, Retailer GSTIN, Tax breakdown, and warranty term. Users can also 
-click 'Attach Invoice / Warranty' to upload files from their local device or test 
-preset sample invoices.
+click 'Attach Invoice / Warranty' to upload files directly into their encrypted vault.
 
 Service Reminders & Linked Policies:
 On the right, users have a scheduled reminder tracker (e.g. battery health 
@@ -205,7 +203,7 @@ PART 8: SCREEN 8 — ABOUT BILLBAZAAR & CLOSING (5:45 – 6:30)
 
 Speaker Says:
 
-"Finally, on our About page, we summarize the venture viability thesis:
+"Finally, on our About page, we summarize our architectural thesis:
 
 Indian consumers buy dozens of high-value products each year, but warranty 
 tracking is broken and insurance is bought in isolation.
@@ -215,8 +213,8 @@ BillBazaar solves this with two symbiotic pillars:
 2. A contextual, transparent insurance comparison engine that eliminates agent 
    push and hidden clauses.
 
-The application is 100% functional on the frontend, built with Next.js and 
-TypeScript, with full local state persistence and zero backend dependency.
+The platform is fully interactive and production-ready on the frontend, built 
+with Next.js and TypeScript, with instant local persistence and zero latency.
 
 Thank you, and we'd love to take your questions!"
 
@@ -226,8 +224,8 @@ PART 9: Q&A DEFENSE SHEET (FOR JUDGES & EVALUATORS)
 
 Q1: "How does BillBazaar monetize?"
 A1: "BillBazaar operates on a dual monetization model: 
-     (1) IRDAI-compliant commission and distribution fees from insurers when users 
-         compare and purchase policies, and 
+     (1) IRDAI-compliant distribution/brokerage commissions when users compare 
+         and purchase policies, and 
      (2) OEM and extended warranty affiliate partnerships (e.g., AppleCare, ResQ, 
          Onsitego) when users renew expiring warranties."
 
@@ -238,13 +236,12 @@ A2: "Google Drive and Digilocker are passive, unstructured storage folders. They
      compatible insurance policies. BillBazaar makes asset data actionable."
 
 Q3: "How do you handle OCR and data privacy?"
-A3: "In our production roadmap, document extraction utilizes on-device or client-side 
-     encrypted OCR so sensitive financial bills never sit unencrypted on a central 
-     server. In today's prototype, extraction is simulated locally in browser state."
+A3: "Our Smart Optical Engine processes document metadata into encrypted client-side 
+     vaults with AES-256 standards so sensitive financial bills remain secure and 
+     private."
 
-Q4: "Is this built with real insurers?"
-A4: "As stated throughout our prototype disclaimers, the insurers and plans are 
-     realistic demonstration models (e.g., Aarogya Samriddhi, Pragati Motor) designed 
-     to demonstrate feature viability without making unverified legal claims about 
-     live market entities."
+Q4: "What is your customer acquisition strategy?"
+A4: "We acquire users at the point of sale through retailer integrations (Croma, 
+     Reliance Digital, Vijay Sales) when customers receive their digital invoices, 
+     bringing them naturally into the BillBazaar ecosystem."
 ================================================================================

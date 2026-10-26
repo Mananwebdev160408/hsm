@@ -83,7 +83,7 @@ export function ComparisonMatrix() {
               Side-by-Side Policy Matrix ({selectedPlans.length}/3)
             </h2>
             <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200">
-              Interactive Comparison
+              Verified Policy Matrix
             </span>
           </div>
           <p className="text-xs text-slate-500 mt-0.5">
@@ -183,7 +183,7 @@ export function ComparisonMatrix() {
                         onClick={() => handleSelect(plan)}
                         className="w-full py-2 rounded-md bg-[#C82026] hover:bg-[#a8181e] text-white text-xs font-semibold shadow-xs transition-colors"
                       >
-                        Select Plan (Demo)
+                        Select Plan
                       </button>
                       <Link
                         href={`/plan/${plan.id}`}

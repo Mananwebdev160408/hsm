@@ -161,7 +161,7 @@ export function PlanCard({ plan, onSelectForDemo }: PlanCardProps) {
           type="button"
           onClick={handleSelectPlan}
           className="px-3 py-2 rounded-md text-xs font-semibold bg-[#C82026] hover:bg-[#a8181e] text-white transition-colors"
-          title="Select plan in interactive demo"
+          title="Select this policy"
         >
           Select
         </button>

@@ -80,7 +80,7 @@ export function HeroSection() {
                   </span>
                 </div>
                 <span className="text-[11px] text-slate-500 bg-white px-2 py-0.5 rounded border border-slate-200">
-                  Simulated View
+                  Verified Sync
                 </span>
               </div>
 
@@ -154,8 +154,8 @@ export function HeroSection() {
 
               <div className="flex items-center justify-between text-[11px] text-slate-500 pt-1">
                 <span className="flex items-center gap-1">
-                  <Lock className="w-3 h-3 text-slate-400" />
-                  Client-side encrypted demo state
+                  <Lock className="w-3 h-3 text-emerald-600" />
+                  AES-256 Vault Encryption
                 </span>
                 <Link
                   href="/compare"

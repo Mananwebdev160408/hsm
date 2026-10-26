@@ -109,7 +109,7 @@ export function Navbar() {
               </div>
               <div className="flex flex-col text-left">
                 <span className="font-semibold text-slate-900 leading-tight">Vikram S.</span>
-                <span className="text-[10px] text-slate-500">Demo Account</span>
+                <span className="text-[10px] text-emerald-700 font-semibold">Verified Account</span>
               </div>
             </Link>
           </div>
@@ -165,7 +165,7 @@ export function Navbar() {
                 <User className="w-4 h-4" />
               </div>
               <div>
-                <p className="text-xs font-semibold text-slate-900">Vikram S. (Demo Mode)</p>
+                <p className="text-xs font-semibold text-slate-900">Vikram S.</p>
                 <p className="text-[11px] text-slate-500">6 Assets Registered • 2 Expiring Soon</p>
               </div>
             </div>

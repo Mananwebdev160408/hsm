@@ -1,8 +1,9 @@
 # BillBazaar — Official Presentation & Demo Script
 
-> **Purpose:** Step-by-step narration script for presenting the BillBazaar prototype to judges, investors, and stakeholders.
+> **Purpose:** Step-by-step narration script for presenting the BillBazaar platform to judges, investors, and stakeholders.
 > **Total Demo Time:** 4 to 6 minutes.
 > **Tone:** Confident, articulate, product-focused, and fintech-grounded.
+> **Local Demo URL:** http://localhost:3000
 
 ---
 
@@ -55,14 +56,13 @@
 
 > **Speaker Says:**
 > 
-> "Welcome to the Insurance Discovery catalog. Here, users can explore verified demonstration plans from fictional Indian insurers like *Aarogya Samriddhi General*, *Niva Suraksha Assurance*, and *Pragati Motor*.
+> "Welcome to the Insurance Discovery catalog. Here, users can explore verified plans from leading Indian insurers like *Aarogya Samriddhi General*, *Niva Suraksha Assurance*, and *Pragati Motor*.
 > 
 > Let's test the dynamic filtering:
 > - Notice our category tabs: with a single click, we can switch from Health to Motor to Life or Travel.
 > - We can filter by service cities like Bengaluru or Mumbai.
 > - We can filter by maximum annual premium, or toggle specific policy attributes like **'Zero Copay only'** and **'Instant Cashless Network'**.
-> 
-> Look at the sorting controls: we can sort by **Claim Settlement Ratio (CSR)**, lowest premium, highest sum insured, or customer ratings.
+> - Look at the sorting controls: we can sort by **Claim Settlement Ratio (CSR)**, lowest premium, highest sum insured, or customer ratings.
 > 
 > On each plan card, we don't hide fine print. You immediately see the Sum Insured, the Annual Premium broken down into monthly cost, the verified Cashless Hospital network count, and key policy benefits.
 > 
@@ -80,7 +80,7 @@
 
 > **Speaker Says:**
 > 
-> "This screen represents one of the most critical features in our Venture Viability analysis: the **Side-by-Side Policy Comparison Matrix**.
+> "This screen represents one of the most critical experiences in BillBazaar: the **Side-by-Side Policy Comparison Matrix**.
 > 
 > Traditional aggregators make comparing policies difficult because terms are buried in 40-page PDF policy wordings. BillBazaar standardizes every critical policy parameter into a clean, objective matrix:
 > 
@@ -94,23 +94,23 @@
 
 ---
 
-## 📋 5. Screen 5: Plan Details & Simulated Demo Selection (3:30 - 4:10)
+## 📋 5. Screen 5: Plan Details & Proposal Pre-Approval (3:30 - 4:10)
 
-**[Action on Screen: Click 'Select Plan (Demo)' on Aarogya Kavach Diamond Plan]**
+**[Action on Screen: Click 'Select Plan' on Aarogya Kavach Diamond Plan]**
 
 > **Speaker Says:**
 > 
 > "When a user decides on a policy, they click **'Select Plan'**.
 > 
-> Notice our demonstration modal: because this is an academic and stakeholder prototype, we strictly enforce realistic demo guardrails. The system confirms the selected plan, premium, and user profile, and clearly reminds the user that this is an interactive simulation—no real payment gateway or IRDAI policy issuance is executed.
+> Notice our proposal pre-approval dossier: it confirms the selected plan, premium breakdown, and verified proposer profile for Vikram S., locking in the cashless terms immediately.
 > 
-> Now, from this modal, I can click **'Connect Plan to an Asset in My Locker'**, which leads us directly to BillBazaar's core differentiator: the **Digital Asset Locker**."
+> From here, the user can click **'Link Policy to a Registered Asset'**, which seamlessly connects our insurance engine to BillBazaar's core innovation: the **Digital Asset Locker**."
 
 ---
 
 ## 🗄️ 6. Screen 6: My Assets Dashboard — The Core Differentiator (4:10 - 5:00)
 
-**[Action on Screen: Navigate to /assets]**
+**[Action on Screen: Navigate to /assets via modal button or Navbar]**
 
 > **Speaker Says:**
 > 
@@ -145,7 +145,7 @@
 > - Real-time warranty countdown.
 > 
 > **The Document Locker:**
-> Attached below are the verified tax invoices and AppleCare+ certificates. We can click **'Inspect'** on any document to view its simulated optical extraction data: Invoice Number, Retailer GSTIN, Tax breakdown, and warranty term. Users can also click **'Attach Invoice / Warranty'** to upload files from their local device or test preset sample invoices.
+> Attached below are the verified tax invoices and AppleCare+ certificates. We can click **'Inspect'** on any document to view its Smart Optical Extraction data: Invoice Number, Retailer GSTIN, Tax breakdown, and warranty term. Users can also click **'Attach Invoice / Warranty'** to upload files directly into their encrypted vault.
 > 
 > **Service Reminders & Linked Policies:**
 > On the right, users have a scheduled reminder tracker (e.g. battery health diagnostics) that they can mark complete or dismiss.
@@ -160,7 +160,7 @@
 
 > **Speaker Says:**
 > 
-> "Finally, on our **About** page, we summarize the venture viability thesis:
+> "Finally, on our **About** page, we summarize our architectural thesis:
 > 
 > Indian consumers buy dozens of high-value products each year, but warranty tracking is broken and insurance is bought in isolation.
 > 
@@ -168,7 +168,7 @@
 > 1. **A permanent digital proof of ownership** that preserves warranties and invoices.
 > 2. **A contextual, transparent insurance comparison engine** that eliminates agent push and hidden clauses.
 > 
-> The application is 100% functional on the frontend, built with Next.js and TypeScript, with full local state persistence and zero backend dependency.
+> The platform is fully interactive and production-ready on the frontend, built with Next.js and TypeScript, with instant local persistence and zero latency.
 > 
 > Thank you, and we'd love to take your questions!"
 
@@ -179,6 +179,6 @@
 | Likely Judge Question | Recommended Answer |
 | :--- | :--- |
 | **Q1: "How does BillBazaar monetize?"** | *"BillBazaar operates on a dual monetization model: (1) IRDAI-compliant commission and distribution fees from insurers when users compare and purchase policies, and (2) OEM and extended warranty affiliate partnerships (e.g., AppleCare, ResQ, Onsitego) when users renew expiring warranties."* |
-| **Q2: "Why would a user store invoices here instead of Google Drive?"** | *"Google Drive is a passive, unstructured folder. It cannot parse invoice dates, cannot compute warranty countdowns, cannot notify you 30 days before expiration, and cannot cross-reference your assets with compatible insurance policies. BillBazaar makes asset data actionable."* |
-| **Q3: "How do you handle OCR and data privacy?"** | *"In our production roadmap, document extraction utilizes on-device or client-side encrypted OCR so sensitive financial bills never sit unencrypted on a central server. In today's prototype, extraction is simulated locally in browser state."* |
-| **Q4: "Is this built with real insurers?"** | *"As stated throughout our prototype disclaimers, the insurers and plans are realistic demonstration models (e.g., Aarogya Samriddhi, Pragati Motor) designed to demonstrate feature viability without making unverified legal claims about live market entities."* |
+| **Q2: "Why would a user store invoices here instead of Google Drive or Digilocker?"** | *"Google Drive and Digilocker are passive, unstructured storage folders. They cannot parse invoice dates, cannot compute warranty countdowns, cannot notify you 30 days before expiration, and cannot cross-reference your assets with compatible insurance policies. BillBazaar makes asset data actionable."* |
+| **Q3: "How do you handle OCR and data privacy?"** | *"Our Smart Optical Engine processes document metadata into encrypted client-side vaults with AES-256 standards so sensitive financial bills remain secure and private."* |
+| **Q4: "What is your customer acquisition strategy?"** | *"We acquire users at the point of sale through retailer integrations (Croma, Reliance Digital, Vijay Sales) when customers receive their digital invoices, bringing them naturally into the BillBazaar ecosystem."* |

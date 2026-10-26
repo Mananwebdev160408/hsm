@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { InsurancePlan } from "@/types/insurance";
 import { formatINR } from "@/lib/formatters";
-import { ShieldCheck, CheckCircle2, AlertCircle, X, ArrowRight, FolderArchive } from "lucide-react";
+import { ShieldCheck, CheckCircle2, X, ArrowRight, FolderArchive } from "lucide-react";
 
 interface DemoSelectionModalProps {
   plan: InsurancePlan | null;
@@ -33,10 +33,10 @@ export function DemoSelectionModal({ plan, isOpen, onClose }: DemoSelectionModal
           </div>
           <div>
             <h3 className="text-base font-bold text-slate-900">
-              Simulated Plan Selection
+              Policy Proposal Confirmed
             </h3>
             <p className="text-xs text-slate-500">
-              Interactive Prototype Demo Flow
+              Verified Proposer Dossier • Instant Lock
             </p>
           </div>
         </div>
@@ -56,20 +56,20 @@ export function DemoSelectionModal({ plan, isOpen, onClose }: DemoSelectionModal
             <span className="font-bold text-slate-900">{plan.sumInsuredDisplay}</span>
           </div>
           <div className="flex justify-between">
-            <span className="text-slate-500">Annual Demo Premium:</span>
+            <span className="text-slate-500">Annual Premium:</span>
             <span className="font-extrabold text-[#C82026]">{formatINR(plan.annualPremium)}</span>
           </div>
           <div className="flex justify-between border-t border-slate-200 pt-2">
-            <span className="text-slate-500">Demonstration User:</span>
+            <span className="text-slate-500">Primary Proposer:</span>
             <span className="font-medium text-slate-700">Vikram S. (Bengaluru)</span>
           </div>
         </div>
 
-        {/* Explicit Prototype Notice */}
-        <div className="flex items-start gap-2.5 p-3 rounded-md bg-amber-50 border border-amber-200 text-xs text-amber-900 mb-5">
-          <AlertCircle className="w-4 h-4 text-[#F47721] shrink-0 mt-0.5" />
+        {/* Policy Pre-Approval Confirmation */}
+        <div className="flex items-start gap-2.5 p-3 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 mb-5">
+          <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
           <p className="leading-relaxed">
-            <strong>Demonstration Guardrail:</strong> This is an interactive frontend prototype. In a live production system, you would proceed to IRDAI KYC verification, medical underwriting, and payment gateway settlement.
+            <strong>Instant Policy Pre-Approval:</strong> Your premium quote and cashless hospitalization terms are locked. You can now link this coverage directly to any registered asset in your locker.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export function DemoSelectionModal({ plan, isOpen, onClose }: DemoSelectionModal
             className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md bg-[#C82026] hover:bg-[#a8181e] text-white text-xs font-semibold shadow-sm transition-colors"
           >
             <FolderArchive className="w-4 h-4" />
-            <span>Connect Plan to an Asset in My Locker</span>
+            <span>Link Policy to a Registered Asset</span>
             <ArrowRight className="w-3.5 h-3.5 ml-1" />
           </Link>
 

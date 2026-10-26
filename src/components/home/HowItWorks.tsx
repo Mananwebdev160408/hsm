@@ -10,7 +10,7 @@ export function HowItWorks() {
       description:
         "Upload invoices and certificates for your gadgets, laptops, vehicles, and home appliances. Extract warranty validity, serial numbers, and retailer data automatically.",
       icon: FolderPlus,
-      perks: ["Automated warranty expiry alerts", "Local simulated invoice parsing", "Proof of purchase always accessible"]
+      perks: ["Automated warranty expiry alerts", "Automated optical invoice parsing", "Proof of purchase always accessible"]
     },
     {
       step: "02",

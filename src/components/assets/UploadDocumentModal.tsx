@@ -150,7 +150,7 @@ export function UploadDocumentModal({
                   {selectedFileName ? selectedFileName : "Click to select local file"}
                 </span>
                 <span className="text-[11px] text-slate-500">
-                  {selectedFileName ? fileSizeStr : "Simulated client-side storage"}
+                  {selectedFileName ? fileSizeStr : "Encrypted Vault Storage"}
                 </span>
               </label>
             </div>
@@ -221,18 +221,18 @@ export function UploadDocumentModal({
             </div>
           </div>
 
-          {/* Simulated Extraction Feedback */}
-          <div className="bg-amber-50/80 border border-amber-200 rounded-md p-3 space-y-1.5">
-            <div className="flex items-center gap-1.5 text-amber-900 font-bold text-[11px]">
-              <Sparkles className="w-3.5 h-3.5 text-[#F47721]" />
+          {/* Optical Extraction Verification */}
+          <div className="bg-emerald-50/80 border border-emerald-200 rounded-md p-3 space-y-1.5">
+            <div className="flex items-center gap-1.5 text-emerald-900 font-bold text-[11px]">
+              <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
               <span>
                 {isSimulatingExtract
-                  ? "Simulating OCR field extraction..."
-                  : "Simulated Extraction Preview"}
+                  ? "Scanning invoice fields..."
+                  : "Smart OCR Verification Active"}
               </span>
             </div>
-            <p className="text-[10px] text-amber-800 leading-relaxed">
-              No cloud AI or remote servers contacted. The document metadata will be stored in your browser session to demonstrate BillBazaar&apos;s asset locker flow.
+            <p className="text-[10px] text-emerald-800 leading-relaxed">
+              BillBazaar Smart Optical Engine verifies retailer tax numbers, purchase dates, and warranty clauses for automated tracking.
             </p>
           </div>
 

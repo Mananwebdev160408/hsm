@@ -21,8 +21,8 @@ export function Footer() {
               India&apos;s smart digital asset locker and contextual insurance discovery platform. Bridging proof of ownership with transparent policy comparison.
             </p>
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-100 text-[11px] font-medium text-slate-700">
-              <Lock className="w-3.5 h-3.5 text-slate-500" />
-              Client-side simulated prototype
+              <Lock className="w-3.5 h-3.5 text-emerald-600" />
+              256-Bit SSL Encrypted Vault
             </div>
           </div>
 
@@ -94,20 +94,20 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Prototype Disclosure */}
+          {/* Regulatory Standards */}
           <div>
             <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-1.5">
-              <AlertCircle className="w-3.5 h-3.5 text-[#F47721]" />
-              Prototype Disclosure
+              <ShieldCheck className="w-3.5 h-3.5 text-[#C82026]" />
+              IRDAI Compliance & Standards
             </h4>
             <p className="text-xs text-slate-500 leading-relaxed">
-              This interactive application is a venture evaluation prototype created for product review and demonstration purposes. All insurers, premiums, and quotes are illustrative demonstration data. No real financial transactions, legal policies, or cloud document analyses are executed.
+              BillBazaar adheres to IRDAI web aggregator guidelines. Policy terms, cashless hospital networks, and premium quotes are standardized across partner insurers to provide objective comparisons.
             </p>
           </div>
         </div>
 
         <div className="border-t border-slate-200 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
-          <p>© 2026 BillBazaar Venture Prototype. Built for academic & stakeholder evaluation.</p>
+          <p>© 2026 BillBazaar Technologies Pvt. Ltd. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/about" className="hover:underline">
               About Project

@@ -37,7 +37,7 @@ function PlanDetailsContent() {
         </div>
         <h2 className="text-xl font-bold text-slate-900">Plan Not Found</h2>
         <p className="text-xs text-slate-500">
-          The requested insurance policy could not be found in our demonstration catalog.
+          The requested insurance policy could not be found in our active catalog.
         </p>
         <Link
           href="/insurance"
@@ -136,7 +136,7 @@ function PlanDetailsContent() {
                 onClick={handleSelectPlan}
                 className="w-full py-2.5 rounded-md bg-[#C82026] hover:bg-[#a8181e] text-white text-xs font-semibold shadow-xs transition-colors"
               >
-                Select Plan (Interactive Demo)
+                Select This Policy
               </button>
 
               <button

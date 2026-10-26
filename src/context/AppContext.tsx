@@ -184,7 +184,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         retailer: documentData.retailer || "Retailer Verified",
         taxAmount: "₹2,450 (18% GST)",
         warrantyTermMonths: 12,
-        extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+        extractedVia: "BillBazaar Smart Optical Engine"
       }
     };
 

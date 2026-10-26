@@ -9,7 +9,7 @@ import { CompareFloatingBar } from "@/components/layout/CompareFloatingBar";
 export const metadata: Metadata = {
   title: "BillBazaar — Indian Digital Asset Locker & Insurance Comparison",
   description:
-    "Interactive fintech prototype consolidating purchase invoices, warranties, and vehicle identifiers with transparent side-by-side insurance policy comparison.",
+    "India's premier digital asset locker and transparent side-by-side insurance comparison platform.",
   icons: {
     icon: "/favicon.ico"
   }

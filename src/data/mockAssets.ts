@@ -28,7 +28,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Apple India Pvt Ltd (BKC Store)",
           taxAmount: "₹24,282 (18% GST)",
           warrantyTermMonths: 36,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       },
       {
@@ -42,7 +42,7 @@ export const MOCK_ASSETS: Asset[] = [
           invoiceNumber: "AC-992102-IN",
           retailer: "Apple Care Services India",
           warrantyTermMonths: 36,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
@@ -82,7 +82,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Imagine Tresor Retail Indiranagar",
           taxAmount: "₹35,982 (18% GST)",
           warrantyTermMonths: 12,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
@@ -122,7 +122,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Reliance Retail Ltd (Digital Div)",
           taxAmount: "₹11,338 (18% GST)",
           warrantyTermMonths: 24,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
@@ -164,7 +164,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Ather Energy Pvt Ltd",
           taxAmount: "₹7,925 (5% EV GST)",
           warrantyTermMonths: 60,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       },
       {
@@ -178,7 +178,7 @@ export const MOCK_ASSETS: Asset[] = [
           invoiceNumber: "POL-PMA-99214-EV",
           retailer: "Pragati Motor Assurance Co.",
           warrantyTermMonths: 12,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
@@ -218,7 +218,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Dyson India Official",
           taxAmount: "₹9,882 (18% GST)",
           warrantyTermMonths: 24,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
@@ -258,7 +258,7 @@ export const MOCK_ASSETS: Asset[] = [
           retailer: "Infiniti Retail Ltd (Croma)",
           taxAmount: "₹5,398 (18% GST)",
           warrantyTermMonths: 12,
-          extractedVia: "BillBazaar Smart Optical Engine (Simulated)"
+          extractedVia: "BillBazaar Smart Optical Engine"
         }
       }
     ],
